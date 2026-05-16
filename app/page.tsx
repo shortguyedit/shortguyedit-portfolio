@@ -29,7 +29,7 @@ export default function ShortguyeditPortfolio() {
   ]
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(173,173,173,0.08),transparent_35%),radial-gradient(circle_at_bottom,rgba(62,62,62,0.12),transparent_35%),linear-gradient(to_bottom,#1A1A1A,#111111,#1A1A1A)] text-white overflow-x-hidden scroll-smooth">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(90,90,90,0.05),transparent_30%),radial-gradient(circle_at_bottom,rgba(40,40,40,0.08),transparent_30%),linear-gradient(to_bottom,#0A0A0A,#050505,#000000)] text-white overflow-x-hidden scroll-smooth">
       <div className="fixed inset-0 -z-10">
         <div className="absolute inset-0 opacity-[0.03] mix-blend-soft-light pointer-events-none">
   <div
