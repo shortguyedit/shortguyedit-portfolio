@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 export default function ShortguyeditPortfolio() {
-  const [selectedTestimonial, setSelectedTestimonial] = useState(null)
+  const [selectedTestimonial, setSelectedTestimonial] = useState<string | null>(null)
   
   const projects = [
     {
