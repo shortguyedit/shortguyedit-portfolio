@@ -54,21 +54,21 @@ export default function ShortguyeditPortfolio() {
             ShortGuyEdit
           </h1>
 
-          <p className="max-w-4xl mx-auto text-[#8A8A8A] text-base md:text-lg leading-relaxed whitespace-nowrap">
+          <p className="max-w-4xl mx-auto text-[#8A8A8A] text-base md:text-lg leading-relaxed">
             your personal storyteller, your vision our vision, let's make your work worth it.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
             <a
               href="#portfolio"
-              className="rounded-2xl border border-white/10 bg-white/[0.03] shadow-[0_0_20px_rgba(255,255,255,0.03)] px-8 py-4 font-semibold hover:bg-[#ADADAD] hover:text-[#1A1A1A] transition duration-300 hover:-translate-y-1"
+              className="w-full sm:w-auto max-w-[260px] rounded-2xl border border-white/10 bg-white/[0.03] shadow-[0_0_20px_rgba(255,255,255,0.03)] px-8 py-4 font-semibold hover:bg-[#ADADAD] hover:text-[#1A1A1A] transition duration-300 hover:-translate-y-1"
             >
               View My Work
             </a>
 
             <a
               href="#contact"
-              className="rounded-2xl border border-white/10 bg-white/[0.03] shadow-[0_0_20px_rgba(255,255,255,0.03)] px-8 py-4 font-semibold hover:bg-[#ADADAD] hover:text-[#1A1A1A] transition duration-300 hover:-translate-y-1"
+              className="w-full sm:w-auto max-w-[260px] rounded-2xl border border-white/10 bg-white/[0.03] shadow-[0_0_20px_rgba(255,255,255,0.03)] px-8 py-4 font-semibold hover:bg-[#ADADAD] hover:text-[#1A1A1A] transition duration-300 hover:-translate-y-1"
             >
               Contact Me
             </a>
