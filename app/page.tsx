@@ -191,7 +191,10 @@ export default function ShortguyeditPortfolio() {
           </p>
 
           <h2 className="font-dico text-4xl md:text-6xl font-black mb-6">
-            Your Vision Our Vision
+            <>
+  <span className="block md:inline">Your Vision</span>{" "}
+  <span className="block md:inline">Our Vision</span>
+</>
           </h2>
 
           <p className="text-[#8A8A8A] text-lg mb-10">
