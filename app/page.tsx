@@ -7,23 +7,19 @@ export default function ShortguyeditPortfolio() {
   
   const projects = [
     {
-      title: 'Story Driven Video Cut',
-      category: 'Storytelling',
+      title: 'Story Driven Cut 01',
       embed: 'https://www.youtube.com/embed/4XtmDfHChVE?si=$1',
     },
     {
-      title: 'Vlog Video Cut',
-      category: 'Vlog Editing',
+      title: 'Travel Vlog Cut 01',
       embed: 'https://www.youtube.com/embed/KRg6MhpFKro?si=$1',
     },
     {
-      title: 'Funny Video Cut',
-      category: 'Comedy Editing',
+      title: 'Comedy Cut 01',
       embed: 'https://www.youtube.com/embed/hFifqwCc8ms?si=$1',
     },
     {
-      title: 'Motion Graphics',
-      category: 'Motion Design',
+      title: 'Motion Graphics 01',
       embed: 'https://www.youtube.com/embed/rAk12Cj4wro?si=$1',
     },
   ]
@@ -104,9 +100,7 @@ export default function ShortguyeditPortfolio() {
               </div>
 
               <div className="p-6 space-y-3">
-                <p className="text-sm uppercase tracking-[0.2em] text-zinc-500">
-                  {project.category}
-                </p>
+                
 
                 <h3 className="text-2xl font-bold group-hover:text-[#ADADAD] transition">
                   {project.title}
