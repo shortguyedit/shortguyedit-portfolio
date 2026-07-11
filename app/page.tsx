@@ -6,23 +6,31 @@ export default function ShortguyeditPortfolio() {
   const [selectedTestimonial, setSelectedTestimonial] = useState<string | null>(null)
   
   const projects = [
-    {
-      title: 'Story Driven Cut 01',
-      embed: 'https://www.youtube.com/embed/4XtmDfHChVE?si=$1',
-    },
-    {
-      title: 'Travel Vlog Cut 01',
-      embed: 'https://www.youtube.com/embed/KRg6MhpFKro?si=$1',
-    },
-    {
-      title: 'Comedy Cut 01',
-      embed: 'https://www.youtube.com/embed/hFifqwCc8ms?si=$1',
-    },
-    {
-      title: 'Motion Graphics 01',
-      embed: 'https://www.youtube.com/embed/rAk12Cj4wro?si=$1',
-    },
-  ]
+  {
+    title: 'Story Driven Cut 01',
+    embed: 'https://www.youtube.com/embed/4XtmDfHChVE?si=$1',
+  },
+  {
+    title: 'Travel Vlog Cut 01',
+    embed: 'https://www.youtube.com/embed/KRg6MhpFKro?si=$1',
+  },
+  {
+    title: 'Comedy Cut 01',
+    embed: 'https://www.youtube.com/embed/hFifqwCc8ms?si=$1',
+  },
+  {
+    title: 'Family Vlog Cut 01',
+    embed: 'https://www.youtube.com/embed/LP_ADG1kRVc?si=vWrcbrUVFjYexxJt',
+  },
+  {
+    title: 'Documentary Cut 01',
+    embed: 'https://www.youtube.com/embed/OgjwjZxNLF0?si=NAKiBH0ns_4cypEm',
+  },
+  {
+    title: 'Motion Graphics 01',
+    embed: 'https://www.youtube.com/embed/rAk12Cj4wro?si=$1',
+  },
+]
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(90,90,90,0.05),transparent_30%),radial-gradient(circle_at_bottom,rgba(40,40,40,0.08),transparent_30%),linear-gradient(to_bottom,#0A0A0A,#050505,#000000)] text-white overflow-x-hidden scroll-smooth">
