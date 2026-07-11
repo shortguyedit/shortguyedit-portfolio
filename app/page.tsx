@@ -20,11 +20,11 @@ export default function ShortguyeditPortfolio() {
   },
   {
     title: 'Family Vlog Cut 01',
-    embed: 'https://www.youtube.com/embed/LP_ADG1kRVc?si=vWrcbrUVFjYexxJt',
+    embed: 'https://www.youtube.com/embed/uC9S_nJGFyU?si=OBDr6U3wwXPApjUu',
   },
   {
     title: 'Documentary Cut 01',
-    embed: 'https://www.youtube.com/embed/OgjwjZxNLF0?si=NAKiBH0ns_4cypEm',
+    embed: 'https://www.youtube.com/embed/t4Hol3gzFDc?si=5RsO76J-VGUj87AP',
   },
   {
     title: 'Motion Graphics 01',
