@@ -93,7 +93,7 @@ const videoTestimonial =
           </div>
         </div>
       </section>
-    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
       <section id="portfolio" className="px-6 py-10 max-w-7xl mx-auto">
         <div className="mb-10">
           <p className="text-[#ADADAD] uppercase tracking-[0.2em] text-sm mb-4">
@@ -133,7 +133,7 @@ const videoTestimonial =
         </div>
       </section>
 
-    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
       <section id="about" className="px-6 py-20 max-w-5xl mx-auto text-center">
         <div className="flex justify-center">
@@ -157,7 +157,7 @@ const videoTestimonial =
           </div>
       </section>
 
-    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
       <section id="testimonials" className="px-6 py-20 max-w-6xl mx-auto">
         <div className="mb-10">
@@ -259,7 +259,7 @@ const videoTestimonial =
         
       </section>
 
-    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
 {selectedTestimonial && (
   <div
