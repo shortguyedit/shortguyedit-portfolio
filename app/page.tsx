@@ -176,7 +176,7 @@ const videoTestimonial =
   <div className="space-y-8">
     <button
       onClick={() => setSelectedTestimonial(topTestimonials[0])}
-      className="group w-full mt-60 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+      className="group w-full mt-0 lg:mt-60 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
     >
       <img
         src={topTestimonials[0]}
@@ -186,7 +186,7 @@ const videoTestimonial =
 
     <button
       onClick={() => setSelectedTestimonial(bottomTestimonials[0])}
-      className="group w-full mt-14 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+      className="group w-full mt-8 lg:mt-14 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
     >
       <img
         src={bottomTestimonials[0]}
@@ -235,7 +235,7 @@ const videoTestimonial =
 
     <button
       onClick={() => setSelectedTestimonial(topTestimonials[2])}
-      className="group w-full mt-59 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+      className="group w-full mt-0 lg:mt-59 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
     >
       <img
         src={topTestimonials[2]}
@@ -245,7 +245,7 @@ const videoTestimonial =
 
     <button
       onClick={() => setSelectedTestimonial(bottomTestimonials[2])}
-      className="group w-full mt-10 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+      className="group w-full mt-8 lg:mt-10 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
     >
       <img
         src={bottomTestimonials[2]}
