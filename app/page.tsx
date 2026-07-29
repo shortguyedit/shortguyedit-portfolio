@@ -31,6 +31,20 @@ export default function ShortguyeditPortfolio() {
     embed: 'https://www.youtube.com/embed/rAk12Cj4wro?si=$1',
   },
 ]
+const topTestimonials = [
+  "/testimonial-1.jpg",
+  "/testimonial-2.jpg",
+  "/testimonial-3.png",
+]
+
+const bottomTestimonials = [
+  "/testimonial-4.png",
+  "/testimonial-5.png",
+  "/testimonial-6.png",
+]
+
+const videoTestimonial =
+  "https://www.youtube.com/embed/dQw4w9WgXcQ"
 
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(90,90,90,0.05),transparent_30%),radial-gradient(circle_at_bottom,rgba(40,40,40,0.08),transparent_30%),linear-gradient(to_bottom,#0A0A0A,#050505,#000000)] text-white overflow-x-hidden scroll-smooth">
@@ -79,7 +93,7 @@ export default function ShortguyeditPortfolio() {
           </div>
         </div>
       </section>
-    <div className="max-w-6xl mx-auto h-px bg-white/5" />
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       <section id="portfolio" className="px-6 py-10 max-w-7xl mx-auto">
         <div className="mb-10">
           <p className="text-[#ADADAD] uppercase tracking-[0.2em] text-sm mb-4">
@@ -119,7 +133,9 @@ export default function ShortguyeditPortfolio() {
         </div>
       </section>
 
-      <section id="about" className="px-6 py-16 max-w-5xl mx-auto text-center">
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+      <section id="about" className="px-6 py-20 max-w-5xl mx-auto text-center">
         <div className="flex justify-center">
           <div className="space-y-4 max-w-3xl">
             <p className="text-[#ADADAD] uppercase tracking-[0.2em] text-sm">
@@ -141,8 +157,10 @@ export default function ShortguyeditPortfolio() {
           </div>
       </section>
 
-      <section id="testimonials" className="px-6 py-12 max-w-6xl mx-auto">
-        <div className="text-left mb-8">
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+      <section id="testimonials" className="px-6 py-20 max-w-6xl mx-auto">
+        <div className="mb-10">
           <p className="text-[#ADADAD] uppercase tracking-[0.2em] text-sm mb-4">
             Testimonials
           </p>
@@ -152,28 +170,97 @@ export default function ShortguyeditPortfolio() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="group h-fit rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500 cursor-pointer">
-            <button onClick={() => setSelectedTestimonial('/testimonial-1.jpg')}>
-              <img
-                src="/testimonial-1.jpg"
-                alt="Testimonial 1"
-                className="w-full object-cover group-hover:scale-105 transition duration-500"
-              />
-            </button>
-          </div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
 
-          <div className="group h-fit rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500 cursor-pointer">
-            <button onClick={() => setSelectedTestimonial('/testimonial-2.jpg')}>
-              <img
-                src="/testimonial-2.jpg"
-                alt="Testimonial 2"
-                className="w-full object-cover group-hover:scale-105 transition duration-500"
-              />
-            </button>
-          </div>
-        </div>
+  {/* LEFT COLUMN */}
+  <div className="space-y-8">
+    <button
+      onClick={() => setSelectedTestimonial(topTestimonials[0])}
+      className="group w-full mt-60 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={topTestimonials[0]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+
+    <button
+      onClick={() => setSelectedTestimonial(bottomTestimonials[0])}
+      className="group w-full mt-14 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={bottomTestimonials[0]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+  </div>
+
+  {/* MIDDLE COLUMN */}
+  <div className="space-y-8">
+
+    <button
+      onClick={() => setSelectedTestimonial(topTestimonials[1])}
+      className="group w-full rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={topTestimonials[1]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+
+    <div className="rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur shadow-[0_0_40px_rgba(255,255,255,0.03)]">
+      <iframe
+        className="w-full aspect-[9/16]"
+        src={videoTestimonial}
+        title="Video Testimonial"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
+    </div>
+
+    <button
+      onClick={() => setSelectedTestimonial(bottomTestimonials[1])}
+      className="group w-full rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={bottomTestimonials[1]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+
+  </div>
+
+  {/* RIGHT COLUMN */}
+  <div className="space-y-8">
+
+    <button
+      onClick={() => setSelectedTestimonial(topTestimonials[2])}
+      className="group w-full mt-59 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={topTestimonials[2]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+
+    <button
+      onClick={() => setSelectedTestimonial(bottomTestimonials[2])}
+      className="group w-full mt-10 rounded-3xl overflow-hidden border border-white/10 bg-[#3E3E3E]/20 backdrop-blur hover:border-[#ADADAD]/40 transition duration-500"
+    >
+      <img
+        src={bottomTestimonials[2]}
+        className="w-full object-cover group-hover:scale-105 transition duration-500"
+      />
+    </button>
+
+  </div>
+
+</div>
+        
       </section>
+
+    <div className="max-w-6xl mx-auto h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
 {selectedTestimonial && (
   <div
     className="fixed inset-0 z-50 flex items-center justify-center bg-[#1A1A1A]/80 backdrop-blur-md px-4"
@@ -186,7 +273,7 @@ export default function ShortguyeditPortfolio() {
     />
   </div>
 )}
-      <section id="contact" className="px-6 py-14">
+      <section id="contact" className="px-6 py-20">
         <div className="max-w-4xl mx-auto rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur p-10 md:p-16 text-center">
           <p className="text-[#ADADAD] uppercase tracking-[0.2em] text-sm mb-6">
             Contact
